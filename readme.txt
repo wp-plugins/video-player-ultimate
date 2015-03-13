@@ -1,8 +1,7 @@
 === Video Player Ultimate ===
 Contributors: jeffbullins
 Donate link: http://www.thinklandingpages.com
-Tags:  video player
-embed video, high definition Video Player, html5 player, html5 video, HTML5 video gallery, HTML5 video player, m4v, MP4, myvideo, player, playlist, playlists, share video, video, video blog, video embed, video gallery, video player, Video Player plugin, video playlist, video plugin, video sharing, video sidebar widget, video widget, videos
+Tags:  video player, embed video, high definition Video Player, html5 player, html5 video, HTML5 video gallery, HTML5 video player, m4v, MP4, myvideo, player, playlist, playlists, share video, video, video blog, video embed, video gallery, video player, Video Player plugin, video playlist, video plugin, video sharing, video sidebar widget, video widget, videos
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0
@@ -50,6 +49,13 @@ Add as many video players to your site as you like.  The Video Player lets you c
 ###Under the hood
 The video player is powered by html5 and Video.js.
 
+###Responsive video player
+The Video Player Ultimate displays a responsive player everytime.  Just place the Video Player Ultimate shortcode [video_player id="%postId%"] on your page and the plugin code will do the rest.
+
+###Multiple video players on a page
+
+You can place multiple video players on the same page.  The video player can be for different videos or the same videos.  Either way, the video players for each video will not conflict with each other.  This will allow you to make a gallery by simply placing your videos inside a table layout.
+
 ###Quick Start Guide
 
 * [video player quick start guide at thinklandingpages.com] (http://www.thinklandingpages.com/video_player/)
@@ -76,9 +82,14 @@ Yes, you can put video player on your homepage by using the Video Player shortco
 = Can I put video player on any post or page? =
 Yes, use the video player shortcode, [video_player id="%postId%"] on your pages and posts.
 
-= Can I put multiple video players on the same page?
+= Can I put multiple video players on the same page? =
 Yes, you can put multiple video players on the same page.
 
+= Can I make a video gallery? =
+Yes, you can make a video gallery.  Just make a table (use a table plugin) and place the video player shortcode in each cell for the videos you want to display.
+
+= Does the video player start automatically? =
+No, the video player doesn't start automatically.
 
 == Screenshots ==
 
