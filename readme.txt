@@ -56,6 +56,12 @@ The Video Player Ultimate displays a responsive player everytime.  Just place th
 
 You can place multiple video players on the same page.  The video player can be for different videos or the same videos.  Either way, the video players for each video will not conflict with each other.  This will allow you to make a gallery by simply placing your videos inside a table layout.
 
+###Video player video format
+You can play any kind of video in the video player that is accepted by the html5 video tag.
+
+###Video player default format
+The video player will default to mp4 if you do not specify a format for your video.  You can specify a format for you video by setting the type attribute in the video player shortcode.
+
 ###Quick Start Guide
 
 * [video player quick start guide at thinklandingpages.com] (http://www.thinklandingpages.com/video_player/)
@@ -90,6 +96,9 @@ Yes, you can make a video gallery.  Just make a table (use a table plugin) and p
 
 = Does the video player start automatically? =
 No, the video player doesn't start automatically.
+
+= Can I specify the format I want for my video in the video player? =
+Yes, you can tell the video player what format your video is by setting the type attribute.
 
 == Screenshots ==
 
